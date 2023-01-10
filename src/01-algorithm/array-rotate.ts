@@ -2,8 +2,14 @@
  * @Author: yxd
  * @Date: 2023-01-10 20:47:27
  * @LastEditors: yxd777 792164257@qq.com
- * @LastEditTime: 2023-01-10 23:17:10
+ * @LastEditTime: 2023-01-11 00:07:11
  * @Description: Array rotate
+ *
+### 将一个数组旋转k步
+> 题目:
+> 	- 输入一个数组[1,2,3,4,5,6,7]
+> 	- k=3, 既旋转3步
+> 	- 输出 [5,6,7,1,2,3,4]
  */
 
 
@@ -54,7 +60,7 @@ export function rotate2(arr: number[], key: number): number[] {
 
 // 性能测试
 
-const arr1 = []
+const arr1:number[] = []
 for (let i = 0; i < 10 * 10000; i++) {
   arr1.push(i)
 }
@@ -63,8 +69,7 @@ rotate1(arr1, 9 * 10000)
 console.timeEnd("rotate1")  //800+ ms
 
 
-
-const arr2 = []
+const arr2:number[] = []
 for (let i = 0; i < 10 * 10000; i++) {
   arr2.push(i)
 }
