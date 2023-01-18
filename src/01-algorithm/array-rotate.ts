@@ -2,8 +2,8 @@
  * @Author: yxd
  * @Date: 2023-01-10 20:47:27
  * @LastEditors: yxd777 792164257@qq.com
- * @LastEditTime: 2023-01-11 00:07:11
- * @Description: Array rotate
+ * @LastEditTime: 2023-01-18 14:46:32
+ * @Description: Array rotate 将一个数组旋转k步
  *
 ### 将一个数组旋转k步
 > 题目:
